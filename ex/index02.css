@@ -1,0 +1,164 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+    }
+    
+    .depth-0-frame-0-child {
+        width: 200px;
+        position: relative;
+        margin: 0 auto; /* 추가된 부분 */
+  }
+  .group-2-2 {
+        width: 205px;
+        position: relative;
+        height: 59px;
+        overflow: hidden;
+        flex-shrink: 0;
+  }
+  .depth-1-frame-1 {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 20px 16px 12px;
+  }
+  .div {
+        position: relative;
+        line-height: 24px;
+  }
+  .depth-3-frame-0 {
+        align-self: stretch;
+        border-radius: 12px;
+        background-color: #fff;
+        border: 1px solid #dbe0e5;
+        box-sizing: border-box;
+        height: 56px;
+        overflow: hidden;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 15px;
+  }
+  .depth-2-frame-0 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        min-width: 160px;
+  }
+  .depth-1-frame-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 12px 16px;
+        box-sizing: border-box;
+        max-width: 480px;
+        color: #637587;
+  }
+  .div1 {
+        align-self: stretch;
+        position: relative;
+        line-height: 21px;
+  }
+  .depth-1-frame-4 {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 4px 16px 12px;
+        font-size: 14px;
+        color: #e91a1a;
+  }
+  .b {
+        align-self: stretch;
+        position: relative;
+        line-height: 21px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+  }
+  .depth-4-frame-0 {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+  }
+  .depth-3-frame-01 {
+        width: 100%;
+        border-radius: 12px;
+        background-color: #1a80e5;
+        height: 40px;
+        overflow: hidden;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 16px;
+        box-sizing: border-box;
+        min-width: 84px;
+        max-width: 480px;
+        cursor: pointer;
+  }
+  .depth-2-frame-01 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 12px 16px;
+        box-sizing: border-box;
+        max-width: 480px;
+  }
+  .depth-1-frame-5 {
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+  }
+  .depth-3-frame-02 {
+        width: 100%;
+        border-radius: 12px;
+        background-color: #a1b3c5;
+        height: 40px;
+        overflow: hidden;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 16px;
+        box-sizing: border-box;
+        min-width: 84px;
+        max-width: 480px;
+        cursor: pointer;
+  }
+  .depth-0-frame-0 {
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        min-height: 844px;
+        text-align: left;
+        font-size: 16px;
+        color: #fff;
+        font-family: 'Noto Serif';
+  }
+  
+  

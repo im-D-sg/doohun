@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.vector-0 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+}
+
+.depth-4-frame-0 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 15px;
+}
+
+.depth-3-frame-0 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.depth-2-frame-0 {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.group-2-4 {
+    width: 100px;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.depth-2-frame-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 48px 0px 0px;
+}
+
+.depth-1-frame-6 {
+    align-self: stretch;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px 8px;
+}
+
+.depth-1-frame-5 {
+    align-self: stretch;
+    background-color: #fff;
+    height: 20px;
+    display: flex; /* flexbox 사용 */
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: center; /* 수평 중앙 정렬 */
+}
+
+.a-hrefhttpskr123rfcomprofi-icon {
+    width: 390px;
+    position: relative;
+    height: 218px;
+    object-fit: cover;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.b {
+    align-self: stretch;
+    position: relative;
+    line-height: 28px;
+}
+
+.depth-1-frame-2 {
+    align-self: stretch;
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 16px 12px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.p {
+    margin: 0;
+}
+
+.div {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+}
+
+.depth-1-frame-3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 16px 12px;
+}
+
+.exbr {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.depth-3-frame-01 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.depth-2-frame-01 {
+    flex: 1;
+    border-radius: 12px;
+    background-color: #0d7df2;
+    height: 48px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    min-width: 84px;
+    max-width: 480px;
+    cursor: pointer;
+}
+
+.depth-1-frame-4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    color: #fff;
+}
+
+.depth-0-frame-0 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 844px;
+    text-align: center;
+    font-size: 16px;
+    color: #121417;
+    font-family: Manrope;
+}
