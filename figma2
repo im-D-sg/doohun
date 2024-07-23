@@ -1,0 +1,156 @@
+GENERATE
+@Composable
+fun Depth0Frame0(modifier: Modifier = Modifier) {
+    LazyColumn(
+        modifier = modifier
+                .requiredWidth(width = 390.dp)
+                .requiredHeight(height = 844.dp)
+                .background(color = Color.White)
+        ) {
+        item {
+            Image(
+                painter = painterResource(id = R.drawable.rectangle2238),
+                contentDescription = "Rectangle 2238",
+                modifier = Modifier
+                                .requiredWidth(width = 386.dp)
+                                .requiredHeight(height = 70.dp))
+            }
+        item {
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(start = 16.dp,
+                                                end = 16.dp,
+                                                top = 20.dp,
+                                                bottom = 12.dp)
+                ) {
+                Image(
+                    painter = painterResource(id = R.drawable.group22),
+                    contentDescription = "Group 2 2",
+                    modifier = Modifier
+                                        .requiredWidth(width = 205.dp)
+                                        .requiredHeight(height = 59.dp))
+                }
+            }
+        item {
+            Image(
+                painter = painterResource(id = R.drawable.rectangle2238),
+                contentDescription = "Rectangle 2238",
+                modifier = Modifier
+                                .requiredWidth(width = 386.dp)
+                                .requiredHeight(height = 70.dp))
+            }
+        item {
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(16.dp, Alignment.Start),
+                verticalAlignment = Alignment.Bottom,
+                modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = 16.dp,
+                                                vertical = 12.dp)
+                ) {
+                OutlinedTextField(
+                    value = "",
+                    onValueChange = {},
+                    label = {
+                    Text(
+                    text = "시리얼 번호를 입력해주세요.",
+                    color = Color(0xff637587),
+                    lineHeight = 1.5.em,
+                    style = TextStyle(
+                                        fontSize = 16.sp))
+                    },
+                    colors = TextFieldDefaults.textFieldColors(
+                                        containerColor = Color.White),
+                    modifier = Modifier
+                                        .fillMaxWidth())
+                }
+            }
+        item {
+            Column(
+                modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(start = 16.dp,
+                                                end = 16.dp,
+                                                top = 4.dp,
+                                                bottom = 12.dp)
+                ) {
+                Text(
+                    text = "시리얼 번호가 잘못되었습니다. 시리얼 번호를 정확히 입력해주세요.",
+                    color = Color(0xffe91a1a),
+                    lineHeight = 1.5.em,
+                    style = TextStyle(
+                                        fontSize = 14.sp),
+                    modifier = Modifier
+                                        .fillMaxWidth())
+                }
+            }
+        item {
+            CenterAlignedTopAppBar(
+                title = {
+                CenterAlignedTopAppBar(
+                title = {
+                Row(
+                horizontalArrangement = Arrangement.Center,
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                                .clip(shape = RoundedCornerShape(12.dp))
+                                .background(color = Color(0xff1a80e5))
+                                .padding(horizontal = 16.dp)
+                ) {
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                    Text(
+                        text = "시작",
+                        color = Color.White,
+                        textAlign = TextAlign.Center,
+                        lineHeight = 1.31.em,
+                        style = TextStyle(
+                                                fontSize = 16.sp),
+                        modifier = Modifier
+                                                .fillMaxWidth())
+                    }
+                }
+                })
+                })
+            }
+        item {
+            CenterAlignedTopAppBar(
+                title = {
+                CenterAlignedTopAppBar(
+                title = {
+                Row(
+                horizontalArrangement = Arrangement.Center,
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                                .clip(shape = RoundedCornerShape(12.dp))
+                                .background(color = Color(0xffa1b3c5))
+                                .padding(horizontal = 16.dp)
+                ) {
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                    Text(
+                        text = "신규 기기 등록",
+                        color = Color.White,
+                        textAlign = TextAlign.Center,
+                        lineHeight = 1.31.em,
+                        style = TextStyle(
+                                                fontSize = 16.sp),
+                        modifier = Modifier
+                                                .fillMaxWidth())
+                    }
+                }
+                })
+                })
+            }
+        }
+ }
+
+@Preview(widthDp = 390, heightDp = 844)
+@Composable
+private fun Depth0Frame0Preview() {
+    Depth0Frame0(Modifier)
+ }
